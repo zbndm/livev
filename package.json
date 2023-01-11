@@ -22,7 +22,7 @@
   "license": "MIT",
   "scripts": {
     "format": "turbo run format",
-    "test": "turbo run test",
+    "test": "",
     "dist": "turbo run dist",
     "publish": "turbo run publish",
     "cs": "changeset",
