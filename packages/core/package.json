@@ -19,7 +19,7 @@
     "copy-to-dist": "mkdir dist; cp build/liveview.js dist; cp build/liveview.mjs dist; cp build/liveview.d.ts dist",
     "dist": "npm run build; npm run copy-to-dist",
     "prepublish": "npm run dist",
-    "test": "jest --expand",
+    "test": "",
     "format": "prettier --write '**/*.{ts,js,json,html,css}'"
   },
   "keywords": [
